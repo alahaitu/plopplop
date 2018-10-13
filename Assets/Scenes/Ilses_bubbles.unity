@@ -2657,17 +2657,31 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 897994095}
   m_CullTransparentMesh: 0
---- !u!1 &917089769 stripped
+--- !u!1 &922489674 stripped
 GameObject:
-  m_CorrespondingSourceObject: {fileID: 1284500834204000, guid: dd58280be5d205d448ccad60bac4111b,
+  m_CorrespondingSourceObject: {fileID: 1104900089636886, guid: fb1e6a3aaaab447e4a4732272985bc5a,
     type: 2}
-  m_PrefabInternal: {fileID: 1967353157}
---- !u!114 &917089770
+  m_PrefabInternal: {fileID: 1675297964}
+--- !u!114 &922489675
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 917089769}
+  m_GameObject: {fileID: 922489674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62c87373dc228d44ead8df2c56388555, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GestureSetting:
+    minSwipeDist: 100
+    maxSwipeTime: 10
+--- !u!114 &922489676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 922489674}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 80c2f93dcd01b1d47ab12224a4c62166, type: 3}
@@ -2682,6 +2696,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 20e36b169f66442b7ac255c0644d62e0, type: 3}
   - {fileID: 8300000, guid: 236088e53f08649b18deb2fe9f8dce7c, type: 3}
   sfxSource: {fileID: 204552909}
+<<<<<<< HEAD
 --- !u!198 &917089772 stripped
 ParticleSystem:
   m_CorrespondingSourceObject: {fileID: 198493771635300844, guid: dd58280be5d205d448ccad60bac4111b,
@@ -2758,6 +2773,9 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  hand: {fileID: 922489674}
+>>>>>>> 4d6bcfe004f00c9866b9fb933079a735a1448d6d
 --- !u!1 &967670962
 GameObject:
   m_ObjectHideFlags: 0
@@ -7508,7 +7526,8 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 204552908}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8465,23 +8484,35 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 65296169419086842, guid: fb1e6a3aaaab447e4a4732272985bc5a,
         type: 2}
+<<<<<<< HEAD
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65296169419086842, guid: fb1e6a3aaaab447e4a4732272985bc5a,
         type: 2}
+=======
+>>>>>>> 4d6bcfe004f00c9866b9fb933079a735a1448d6d
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 65296169419086842, guid: fb1e6a3aaaab447e4a4732272985bc5a,
         type: 2}
       propertyPath: m_Size.x
+<<<<<<< HEAD
       value: 2.426381
       objectReference: {fileID: 0}
     - target: {fileID: 65296169419086842, guid: fb1e6a3aaaab447e4a4732272985bc5a,
         type: 2}
       propertyPath: m_Center.x
       value: 0.71319056
+=======
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 65296169419086842, guid: fb1e6a3aaaab447e4a4732272985bc5a,
+        type: 2}
+      propertyPath: m_Size.z
+      value: 2.5
+>>>>>>> 4d6bcfe004f00c9866b9fb933079a735a1448d6d
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb1e6a3aaaab447e4a4732272985bc5a, type: 2}
@@ -10320,8 +10351,41 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 198493771635300844, guid: dd58280be5d205d448ccad60bac4111b,
         type: 2}
+<<<<<<< HEAD
       propertyPath: CollisionModule.collisionMessages
+=======
+      propertyPath: CollisionModule.type
+>>>>>>> 4d6bcfe004f00c9866b9fb933079a735a1448d6d
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198493771635300844, guid: dd58280be5d205d448ccad60bac4111b,
+        type: 2}
+<<<<<<< HEAD
+      propertyPath: TriggerModule.inside
+=======
+      propertyPath: CollisionModule.collisionMode
+>>>>>>> 4d6bcfe004f00c9866b9fb933079a735a1448d6d
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198493771635300844, guid: dd58280be5d205d448ccad60bac4111b,
+        type: 2}
+<<<<<<< HEAD
+      propertyPath: CollisionModule.type
+      value: 1
+      objectReference: {fileID: 0}
+=======
+      propertyPath: CollisionModule.m_Bounce.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198493771635300844, guid: dd58280be5d205d448ccad60bac4111b,
+        type: 2}
+      propertyPath: TriggerModule.collisionShape1
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 198493771635300844, guid: dd58280be5d205d448ccad60bac4111b,
+        type: 2}
+      propertyPath: SubModule.subEmitters.Array.data[0].properties
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 198493771635300844, guid: dd58280be5d205d448ccad60bac4111b,
         type: 2}
@@ -10330,9 +10394,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 198493771635300844, guid: dd58280be5d205d448ccad60bac4111b,
         type: 2}
-      propertyPath: CollisionModule.type
-      value: 1
+      propertyPath: TriggerModule.enter
+      value: 0
       objectReference: {fileID: 0}
+>>>>>>> 4d6bcfe004f00c9866b9fb933079a735a1448d6d
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd58280be5d205d448ccad60bac4111b, type: 2}
   m_IsPrefabAsset: 0
