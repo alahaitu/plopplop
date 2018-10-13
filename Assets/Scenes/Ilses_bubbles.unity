@@ -638,9 +638,8 @@ AudioSource:
   m_GameObject: {fileID: 204552907}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 54fa08addf78daa45b159a0cfe01b77b,
-    type: 2}
-  m_audioClip: {fileID: 8300000, guid: 4f42b20feadc66d44afbfa1d470e6421, type: 3}
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2682,6 +2681,25 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 20e36b169f66442b7ac255c0644d62e0, type: 3}
   - {fileID: 8300000, guid: 236088e53f08649b18deb2fe9f8dce7c, type: 3}
   sfxSource: {fileID: 204552909}
+--- !u!1 &922489674 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1104900089636886, guid: fb1e6a3aaaab447e4a4732272985bc5a,
+    type: 2}
+  m_PrefabInternal: {fileID: 1675297964}
+--- !u!114 &922489675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 922489674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62c87373dc228d44ead8df2c56388555, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GestureSetting:
+    minSwipeDist: 100
+    maxSwipeTime: 10
 --- !u!1 &967670962
 GameObject:
   m_ObjectHideFlags: 0
@@ -8383,6 +8401,10 @@ Prefab:
       propertyPath: m_Center.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1104900089636886, guid: fb1e6a3aaaab447e4a4732272985bc5a, type: 2}
+      propertyPath: m_TagString
+      value: hand
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb1e6a3aaaab447e4a4732272985bc5a, type: 2}
   m_IsPrefabAsset: 0
@@ -10001,6 +10023,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 80047968}
     m_Modifications:
+    - target: {fileID: 198493771635300844, guid: dd58280be5d205d448ccad60bac4111b,
+        type: 2}
+      propertyPath: SubModule.subEmitters.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4063320216266786, guid: dd58280be5d205d448ccad60bac4111b, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -10047,7 +10074,7 @@ Prefab:
         type: 2}
       propertyPath: ShapeModule.m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: 3f1547dfc630ce04aba789ce127f0346, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 199948837087579412, guid: dd58280be5d205d448ccad60bac4111b,
         type: 2}
       propertyPath: m_Materials.Array.data[0]
@@ -10056,7 +10083,7 @@ Prefab:
     - target: {fileID: 198242325136857832, guid: dd58280be5d205d448ccad60bac4111b,
         type: 2}
       propertyPath: ShapeModule.alignToDirection
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 198242325136857832, guid: dd58280be5d205d448ccad60bac4111b,
         type: 2}
@@ -10096,42 +10123,42 @@ Prefab:
     - target: {fileID: 198242325136857832, guid: dd58280be5d205d448ccad60bac4111b,
         type: 2}
       propertyPath: InitialModule.rotation3D
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 198242325136857832, guid: dd58280be5d205d448ccad60bac4111b,
         type: 2}
       propertyPath: InitialModule.startRotationX.minMaxState
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 198242325136857832, guid: dd58280be5d205d448ccad60bac4111b,
         type: 2}
       propertyPath: InitialModule.startRotationX.scalar
-      value: 3.1415927
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 198242325136857832, guid: dd58280be5d205d448ccad60bac4111b,
         type: 2}
       propertyPath: InitialModule.startRotationY.minMaxState
-      value: 0
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 198242325136857832, guid: dd58280be5d205d448ccad60bac4111b,
         type: 2}
       propertyPath: InitialModule.startRotationY.scalar
-      value: 3.1415927
-      objectReference: {fileID: 0}
-    - target: {fileID: 198242325136857832, guid: dd58280be5d205d448ccad60bac4111b,
-        type: 2}
-      propertyPath: InitialModule.startRotation.minMaxState
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 198242325136857832, guid: dd58280be5d205d448ccad60bac4111b,
         type: 2}
+      propertyPath: InitialModule.startRotation.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 198242325136857832, guid: dd58280be5d205d448ccad60bac4111b,
+        type: 2}
       propertyPath: InitialModule.startRotation.scalar
-      value: 3.054326
+      value: 1.5707963
       objectReference: {fileID: 0}
     - target: {fileID: 198242325136857832, guid: dd58280be5d205d448ccad60bac4111b,
         type: 2}
       propertyPath: InitialModule.startRotation.minScalar
-      value: 3.1415925
+      value: -1.5707963
       objectReference: {fileID: 0}
     - target: {fileID: 198242325136857832, guid: dd58280be5d205d448ccad60bac4111b,
         type: 2}
@@ -10151,12 +10178,67 @@ Prefab:
     - target: {fileID: 198242325136857832, guid: dd58280be5d205d448ccad60bac4111b,
         type: 2}
       propertyPath: InitialModule.gravityModifier.scalar
-      value: 0
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 198242325136857832, guid: dd58280be5d205d448ccad60bac4111b,
         type: 2}
       propertyPath: ShapeModule.randomDirectionAmount
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198493771635300844, guid: dd58280be5d205d448ccad60bac4111b,
+        type: 2}
+      propertyPath: ShapeModule.m_Texture
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 199432526552867304, guid: dd58280be5d205d448ccad60bac4111b,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 23e968fe99b6445628472002fc7d6450, type: 2}
+    - target: {fileID: 198242325136857832, guid: dd58280be5d205d448ccad60bac4111b,
+        type: 2}
+      propertyPath: InitialModule.maxNumParticles
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 198242325136857832, guid: dd58280be5d205d448ccad60bac4111b,
+        type: 2}
+      propertyPath: InitialModule.startRotationX.minScalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198242325136857832, guid: dd58280be5d205d448ccad60bac4111b,
+        type: 2}
+      propertyPath: InitialModule.startRotationY.minScalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198242325136857832, guid: dd58280be5d205d448ccad60bac4111b,
+        type: 2}
+      propertyPath: InitialModule.startSize.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 198242325136857832, guid: dd58280be5d205d448ccad60bac4111b,
+        type: 2}
+      propertyPath: InitialModule.startSizeY.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 198242325136857832, guid: dd58280be5d205d448ccad60bac4111b,
+        type: 2}
+      propertyPath: InitialModule.startSizeZ.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 198242325136857832, guid: dd58280be5d205d448ccad60bac4111b,
+        type: 2}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 198493771635300844, guid: dd58280be5d205d448ccad60bac4111b,
+        type: 2}
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 198493771635300844, guid: dd58280be5d205d448ccad60bac4111b,
+        type: 2}
+      propertyPath: SubModule.subEmitters.Array.data[1].type
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd58280be5d205d448ccad60bac4111b, type: 2}

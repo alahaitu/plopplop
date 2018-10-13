@@ -15,7 +15,8 @@ public class MusicManager : MonoBehaviour
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void Update () 
+	{
 		
 	}
 
@@ -24,5 +25,13 @@ public class MusicManager : MonoBehaviour
 		int RandClip = Random.Range (0, sfx.Length);
 		sfxSource.clip = sfx [RandClip];
 		sfxSource.Play ();
+	}
+
+	void OnTriggerEnter(Collider other)
+	{
+		if(other.CompareTag("hand"))
+		{
+			PlayRandomPlop ();
+		}
 	}
 }
