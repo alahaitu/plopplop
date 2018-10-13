@@ -11,7 +11,7 @@ public class MusicManager : MonoBehaviour
 	// Use this for initialization
 	void Start () 
 	{
-		
+		Debug.Log("Music Manager start");
 	}
 	
 	// Update is called once per frame
@@ -27,8 +27,14 @@ public class MusicManager : MonoBehaviour
 		sfxSource.Play ();
 	}
 
+	void OnParticleCollision(GameObject other)
+	{
+		Debug.Log("on particle collision");
+	}
+
 	void OnTriggerEnter(Collider other)
 	{
+		Debug.Log("on trigger enter", other);
 		if(other.CompareTag("hand"))
 		{
 			PlayRandomPlop ();
