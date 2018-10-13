@@ -623,8 +623,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 204552907}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.9545383, y: 12.99955, z: 10.17981}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -638,9 +638,10 @@ AudioSource:
   m_GameObject: {fileID: 204552907}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 54fa08addf78daa45b159a0cfe01b77b,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 02c74ff76080d4ae7a3e69db00fad41e, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -2681,6 +2682,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 20e36b169f66442b7ac255c0644d62e0, type: 3}
   - {fileID: 8300000, guid: 236088e53f08649b18deb2fe9f8dce7c, type: 3}
   sfxSource: {fileID: 204552909}
+  hand: {fileID: 922489674}
 --- !u!1 &922489674 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1104900089636886, guid: fb1e6a3aaaab447e4a4732272985bc5a,
@@ -8405,6 +8407,21 @@ Prefab:
       propertyPath: m_TagString
       value: hand
       objectReference: {fileID: 0}
+    - target: {fileID: 65296169419086842, guid: fb1e6a3aaaab447e4a4732272985bc5a,
+        type: 2}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 65296169419086842, guid: fb1e6a3aaaab447e4a4732272985bc5a,
+        type: 2}
+      propertyPath: m_Size.x
+      value: 1.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 65296169419086842, guid: fb1e6a3aaaab447e4a4732272985bc5a,
+        type: 2}
+      propertyPath: m_Size.z
+      value: 2.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb1e6a3aaaab447e4a4732272985bc5a, type: 2}
   m_IsPrefabAsset: 0
@@ -10239,6 +10256,41 @@ Prefab:
         type: 2}
       propertyPath: SubModule.subEmitters.Array.data[1].type
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 198493771635300844, guid: dd58280be5d205d448ccad60bac4111b,
+        type: 2}
+      propertyPath: CollisionModule.type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198493771635300844, guid: dd58280be5d205d448ccad60bac4111b,
+        type: 2}
+      propertyPath: CollisionModule.collisionMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198493771635300844, guid: dd58280be5d205d448ccad60bac4111b,
+        type: 2}
+      propertyPath: CollisionModule.m_Bounce.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198493771635300844, guid: dd58280be5d205d448ccad60bac4111b,
+        type: 2}
+      propertyPath: TriggerModule.collisionShape1
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 198493771635300844, guid: dd58280be5d205d448ccad60bac4111b,
+        type: 2}
+      propertyPath: SubModule.subEmitters.Array.data[0].properties
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198493771635300844, guid: dd58280be5d205d448ccad60bac4111b,
+        type: 2}
+      propertyPath: TriggerModule.inside
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 198493771635300844, guid: dd58280be5d205d448ccad60bac4111b,
+        type: 2}
+      propertyPath: TriggerModule.enter
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd58280be5d205d448ccad60bac4111b, type: 2}
