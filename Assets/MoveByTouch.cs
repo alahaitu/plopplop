@@ -13,21 +13,6 @@ public class MoveByTouch : MonoBehaviour
 
     void Update()
     {
-        /*     if (Input.GetButtonDown("Fire1"))
-             {
-                 Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-                 if (Physics.Raycast(ray))
-                    // Instantiate(particle, transform.position, transform.rotation);
-                     transform.position = Input.mousePosition;
-
-             }*/
-
-        if (Input.GetMouseButtonDown(1)) // right mouse button
-        {
-            clickedPosition = Camera.main.ScreenToWorldPosition(Input.mousePosition);
-            transform.position = Vector3.Lerp(startPoint, clickedPosition, (Time.time - startTime) / 1.0f);
-        }
-
         if (Input.touchCount > 0)
         {
             Touch touch = Input.GetTouch(0);
