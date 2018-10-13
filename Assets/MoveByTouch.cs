@@ -4,11 +4,6 @@ using UnityEngine;
 
 public class MoveByTouch : MonoBehaviour
 {
-
-    public Vector3 startPoint;
-    private float startTime;
-    private Vector3 clickedPosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
     // Update is called once per frame 
 
     void Update()
