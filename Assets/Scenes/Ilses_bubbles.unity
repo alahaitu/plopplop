@@ -638,9 +638,8 @@ AudioSource:
   m_GameObject: {fileID: 204552907}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 24300002, guid: 54fa08addf78daa45b159a0cfe01b77b,
-    type: 2}
-  m_audioClip: {fileID: 8300000, guid: 4f42b20feadc66d44afbfa1d470e6421, type: 3}
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -8402,6 +8401,10 @@ Prefab:
       propertyPath: m_Center.y
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1104900089636886, guid: fb1e6a3aaaab447e4a4732272985bc5a, type: 2}
+      propertyPath: m_TagString
+      value: hand
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb1e6a3aaaab447e4a4732272985bc5a, type: 2}
   m_IsPrefabAsset: 0
@@ -10020,6 +10023,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 80047968}
     m_Modifications:
+    - target: {fileID: 198493771635300844, guid: dd58280be5d205d448ccad60bac4111b,
+        type: 2}
+      propertyPath: SubModule.subEmitters.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4063320216266786, guid: dd58280be5d205d448ccad60bac4111b, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -10226,6 +10234,11 @@ Prefab:
         type: 2}
       propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
       value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 198493771635300844, guid: dd58280be5d205d448ccad60bac4111b,
+        type: 2}
+      propertyPath: SubModule.subEmitters.Array.data[1].type
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd58280be5d205d448ccad60bac4111b, type: 2}
