@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1623806431441460}
+  m_IsPrefabAsset: 1
+--- !u!1 &1623806431441460
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4762442957041976}
+  - component: {fileID: 114862345043811648}
+  - component: {fileID: 114479731001179146}
+  - component: {fileID: 114096199418924114}
+  - component: {fileID: 114253218101300974}
+  - component: {fileID: 114278519683914480}
+  m_Layer: 0
+  m_Name: Sensor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4762442957041976
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1623806431441460}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.30000004, y: 2.33, z: -11.67}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114096199418924114
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1623806431441460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57628ebbcb92bcb48bb3d7333f9d2300, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  factor: 2
+  target: {fileID: 0}
+  DrawHand: 1
+  handColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  handPixSize: 4
+--- !u!114 &114253218101300974
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1623806431441460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c00116da55f9b040b94047560e90dbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UserTracker: {fileID: 114862345043811648}
+  RadarRealWorldDimensions: {x: 4000, y: 4000}
+  PixelsPerMeter: 35
+--- !u!114 &114278519683914480
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1623806431441460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd7713aa4ebf9d4babac574cae28bb9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Mirror: 1
+  LoadFromRecording: 0
+  RecordingFilename: 
+  RecordingFramerate: 30
+  LicenseKey: 0KOIk2JeIBYClPWVnMoRKn5cdY4=
+  LicenseVendor: PrimeSense
+  LoadFromXML: 0
+  XMLFilename: .\OpenNI.xml
+--- !u!114 &114479731001179146
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1623806431441460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ca1396d4ffbc9547a7b7150936962c5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UserTracker: {fileID: 114862345043811648}
+  Skeletons:
+  - {fileID: 0}
+--- !u!114 &114862345043811648
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1623806431441460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 902bba3f7e7fd2e40ae1793fb4d3aedb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UserTooCloseDistance: 1.6
+  MaxCalibratedUsers: 0
