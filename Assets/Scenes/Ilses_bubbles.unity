@@ -10225,7 +10225,7 @@ Prefab:
     - target: {fileID: 198493771635300844, guid: dd58280be5d205d448ccad60bac4111b,
         type: 2}
       propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
-      value: 50
+      value: 200
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dd58280be5d205d448ccad60bac4111b, type: 2}
