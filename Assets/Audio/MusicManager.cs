@@ -39,21 +39,5 @@ public class MusicManager : MonoBehaviour
 		{
 			PlayRandomPlop ();
 		}
-=======
-	void OnParticleCollision (GameObject other)
-	{
-//		int safeLength = bubbles.GetSafeCollisionEventSize();
-//		if (particleCollisionEvent.Length < safeLength)
-//			particleCollisionEvent = new ParticleCollisionEvent[safeLength];
-//
-//		int totalCollisions = bubbles.GetCollisionEvents(other, particleCollisionEvent);
-//		for (int i = 0; i < totalCollisions; i++)
-//			AudioSource.PlayClipAtPoint(sfxSource, particleCollisionEvent[i].intersection);
-//
-//		print (totalCollisions);
-
-		//hand.gameObject.CompareTag("hand")
-		PlayRandomPlop ();
->>>>>>> 4d6bcfe004f00c9866b9fb933079a735a1448d6d
 	}
 }
