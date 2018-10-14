@@ -36,7 +36,7 @@ public class MusicManager : MonoBehaviour
 	{
 		int randClip = Random.Range (0, sfx.Length);
 		sfxSource.PlayOneShot (sfx[randClip], 1);
-		//sfxSource.Play ();
+		sfxSource.Play ();
 	}
 
 	void OnParticleCollision (GameObject other)
@@ -51,7 +51,8 @@ public class MusicManager : MonoBehaviour
 //
 //		print (totalCollisions);
 
-		//hand.gameObject.CompareTag("hand")
-		PlayRandomPlop ();
+		if (hand.gameObject.CompareTag ("hand")) {
+			PlayRandomPlop ();
+		}
 	}
 }
