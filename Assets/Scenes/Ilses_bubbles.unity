@@ -2657,6 +2657,8 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 897994095}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD
+=======
 --- !u!1 &922489674 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1104900089636886, guid: fb1e6a3aaaab447e4a4732272985bc5a,
@@ -2776,6 +2778,7 @@ Transform:
 =======
   hand: {fileID: 922489674}
 >>>>>>> 4d6bcfe004f00c9866b9fb933079a735a1448d6d
+>>>>>>> e28d9b6375c5e0abdd65d2a55590053d306f277c
 --- !u!1 &967670962
 GameObject:
   m_ObjectHideFlags: 0
@@ -8456,6 +8459,13 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
+<<<<<<< HEAD
+    - target: {fileID: 114490001673605430, guid: fb1e6a3aaaab447e4a4732272985bc5a,
+        type: 2}
+      propertyPath: sfxSource
+      value: 
+      objectReference: {fileID: 204552909}
+=======
     - target: {fileID: 4569252546128800, guid: fb1e6a3aaaab447e4a4732272985bc5a, type: 2}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
@@ -8514,6 +8524,7 @@ Prefab:
       value: 2.5
 >>>>>>> 4d6bcfe004f00c9866b9fb933079a735a1448d6d
       objectReference: {fileID: 0}
+>>>>>>> e28d9b6375c5e0abdd65d2a55590053d306f277c
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fb1e6a3aaaab447e4a4732272985bc5a, type: 2}
   m_IsPrefabAsset: 0
@@ -10132,11 +10143,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 80047968}
     m_Modifications:
-    - target: {fileID: 198493771635300844, guid: dd58280be5d205d448ccad60bac4111b,
-        type: 2}
-      propertyPath: SubModule.subEmitters.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4063320216266786, guid: dd58280be5d205d448ccad60bac4111b, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -10176,6 +10182,10 @@ Prefab:
       objectReference: {fileID: 1915817350}
     - target: {fileID: 198493771635300844, guid: dd58280be5d205d448ccad60bac4111b,
         type: 2}
+<<<<<<< HEAD
+      propertyPath: EmissionModule.m_Bursts.Array.data[0].countCurve.scalar
+      value: 300
+=======
       propertyPath: CollisionModule.enabled
       value: 1
       objectReference: {fileID: 0}
@@ -10396,6 +10406,7 @@ Prefab:
         type: 2}
       propertyPath: TriggerModule.enter
       value: 0
+>>>>>>> e28d9b6375c5e0abdd65d2a55590053d306f277c
       objectReference: {fileID: 0}
 >>>>>>> 4d6bcfe004f00c9866b9fb933079a735a1448d6d
     m_RemovedComponents: []
