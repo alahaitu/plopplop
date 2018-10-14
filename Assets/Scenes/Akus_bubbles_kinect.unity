@@ -123,7 +123,7 @@ Prefab:
     - target: {fileID: 114490001673605430, guid: fb1e6a3aaaab447e4a4732272985bc5a,
         type: 2}
       propertyPath: sfx.Array.size
-      value: 12
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 4569252546128800, guid: fb1e6a3aaaab447e4a4732272985bc5a, type: 2}
       propertyPath: m_LocalPosition.x
@@ -232,37 +232,37 @@ Prefab:
         type: 2}
       propertyPath: sfx.Array.data[12]
       value: 
-      objectReference: {fileID: 8300000, guid: dd8ac65bb12bc4f40acdaa1d00f18529, type: 3}
+      objectReference: {fileID: 8300000, guid: 8647ed8f9071b194f96661bf36595cfa, type: 3}
     - target: {fileID: 114490001673605430, guid: fb1e6a3aaaab447e4a4732272985bc5a,
         type: 2}
       propertyPath: sfx.Array.data[13]
       value: 
-      objectReference: {fileID: 8300000, guid: 0777e0beac2c9e64bb48ee03df9f7ede, type: 3}
+      objectReference: {fileID: 8300000, guid: bfdb1fdbbc6fe7947a2273f64d1f7b99, type: 3}
     - target: {fileID: 114490001673605430, guid: fb1e6a3aaaab447e4a4732272985bc5a,
         type: 2}
       propertyPath: sfx.Array.data[14]
       value: 
-      objectReference: {fileID: 8300000, guid: bad63acfe84e3ce469e9ea29d2f9aab6, type: 3}
+      objectReference: {fileID: 8300000, guid: 238ea2e26a192dd41a70850d20999261, type: 3}
     - target: {fileID: 114490001673605430, guid: fb1e6a3aaaab447e4a4732272985bc5a,
         type: 2}
       propertyPath: sfx.Array.data[15]
       value: 
-      objectReference: {fileID: 8300000, guid: a66a48f5c70757746a26d13d0679fe8a, type: 3}
+      objectReference: {fileID: 8300000, guid: 7a6ae50ad97720f41a10f3ae1aa81cc9, type: 3}
     - target: {fileID: 114490001673605430, guid: fb1e6a3aaaab447e4a4732272985bc5a,
         type: 2}
       propertyPath: sfx.Array.data[16]
       value: 
-      objectReference: {fileID: 8300000, guid: f256555195ae3b64fa240e7e57904a81, type: 3}
+      objectReference: {fileID: 8300000, guid: 4ea989a2e07a3364a856de4f239b80f8, type: 3}
     - target: {fileID: 114490001673605430, guid: fb1e6a3aaaab447e4a4732272985bc5a,
         type: 2}
       propertyPath: sfx.Array.data[17]
       value: 
-      objectReference: {fileID: 8300000, guid: 227e45574b99a394980d09309d85e5a6, type: 3}
+      objectReference: {fileID: 8300000, guid: 6948856a9136e10498c424e93d01d7bd, type: 3}
     - target: {fileID: 114490001673605430, guid: fb1e6a3aaaab447e4a4732272985bc5a,
         type: 2}
       propertyPath: sfx.Array.data[18]
       value: 
-      objectReference: {fileID: 8300000, guid: e1fce51fd28fa12448d6bb39114bae23, type: 3}
+      objectReference: {fileID: 8300000, guid: e573239c5a2146a4faa5eb97775fa025, type: 3}
     - target: {fileID: 114490001673605430, guid: fb1e6a3aaaab447e4a4732272985bc5a,
         type: 2}
       propertyPath: sfx.Array.data[0]
@@ -298,6 +298,51 @@ Prefab:
       propertyPath: sfx.Array.data[6]
       value: 
       objectReference: {fileID: 8300000, guid: 0777e0beac2c9e64bb48ee03df9f7ede, type: 3}
+    - target: {fileID: 114490001673605430, guid: fb1e6a3aaaab447e4a4732272985bc5a,
+        type: 2}
+      propertyPath: sfx.Array.data[19]
+      value: 
+      objectReference: {fileID: 8300000, guid: ff8504a9e57b4e64f9113a4a1ce2c419, type: 3}
+    - target: {fileID: 114490001673605430, guid: fb1e6a3aaaab447e4a4732272985bc5a,
+        type: 2}
+      propertyPath: sfx.Array.data[20]
+      value: 
+      objectReference: {fileID: 8300000, guid: 154c251cdc72f5f4aacf9e547981944f, type: 3}
+    - target: {fileID: 114490001673605430, guid: fb1e6a3aaaab447e4a4732272985bc5a,
+        type: 2}
+      propertyPath: sfx.Array.data[21]
+      value: 
+      objectReference: {fileID: 8300000, guid: 27bc9d451c7693742a9b5945e84c7b0d, type: 3}
+    - target: {fileID: 114490001673605430, guid: fb1e6a3aaaab447e4a4732272985bc5a,
+        type: 2}
+      propertyPath: sfx.Array.data[22]
+      value: 
+      objectReference: {fileID: 8300000, guid: 7bb552cbfb55afe45944631f28e983d3, type: 3}
+    - target: {fileID: 114490001673605430, guid: fb1e6a3aaaab447e4a4732272985bc5a,
+        type: 2}
+      propertyPath: sfx.Array.data[23]
+      value: 
+      objectReference: {fileID: 8300000, guid: cdebe57edee973a49a6d9d8e4014ae63, type: 3}
+    - target: {fileID: 114490001673605430, guid: fb1e6a3aaaab447e4a4732272985bc5a,
+        type: 2}
+      propertyPath: sfx.Array.data[24]
+      value: 
+      objectReference: {fileID: 8300000, guid: 5bc81f93c3a43e84f9efb5a1842b4f25, type: 3}
+    - target: {fileID: 114490001673605430, guid: fb1e6a3aaaab447e4a4732272985bc5a,
+        type: 2}
+      propertyPath: sfx.Array.data[25]
+      value: 
+      objectReference: {fileID: 8300000, guid: 7e0680172af81c2438d15065308fb776, type: 3}
+    - target: {fileID: 114490001673605430, guid: fb1e6a3aaaab447e4a4732272985bc5a,
+        type: 2}
+      propertyPath: sfx.Array.data[26]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2d85c953c22b90a4e843862a3b43499d, type: 3}
+    - target: {fileID: 114490001673605430, guid: fb1e6a3aaaab447e4a4732272985bc5a,
+        type: 2}
+      propertyPath: sfx.Array.data[27]
+      value: 
+      objectReference: {fileID: 8300000, guid: d2fdb5d6fea0bf54e8f8a858af7eca55, type: 3}
     m_RemovedComponents:
     - {fileID: 65296169419086842, guid: fb1e6a3aaaab447e4a4732272985bc5a, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: fb1e6a3aaaab447e4a4732272985bc5a, type: 2}
