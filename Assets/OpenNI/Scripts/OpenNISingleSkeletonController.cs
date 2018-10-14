@@ -94,17 +94,18 @@ public class OpenNISingleSkeletonController : MonoBehaviour
 			{
 				// Looking
 				GUILayout.BeginArea (new Rect (Screen.width/2 - 150, Screen.height/2 - 150, 300, 300));
-				GUILayout.Box("Waiting for single player to calibrate");
+				GUILayout.Box("Nosta kätesi ylös jotta kamera löytää sinut!");
 				GUILayout.EndArea();
 			}
 		}
 		else
 		{
 			// Calibrated
-			GUILayout.BeginVertical("box");
+		/*	GUILayout.BeginVertical("box");
 			GUILayout.Label(string.Format("Calibrated: {0}", userId));
 			GUILayout.Label(string.Format("Out of frame: {0}", (outOfFrame) ? "TRUE" : "FALSE"));
 			GUILayout.EndVertical();
+			*/
 		}
 	}
 }
